@@ -132,8 +132,8 @@ $("document").ready(function() {
 
   $("#balloons_flying").click(function() {
     $(".balloon-border").animate({ top: -500 }, 8000);
-    $("#b1,#b4,#b5").addClass("balloons-rotate-behaviour-one");
-    $("#b2,#b3").addClass("balloons-rotate-behaviour-two");
+    $("#b1,#b2,#b4,#b5").addClass("balloons-rotate-behaviour-one");
+    $("#b3").addClass("balloons-rotate-behaviour-two");
     // $('#b3').addClass('balloons-rotate-behaviour-two');
     // $('#b4').addClass('balloons-rotate-behaviour-one');
     // $('#b5').addClass('balloons-rotate-behaviour-one');
@@ -189,7 +189,7 @@ $("document").ready(function() {
     // $("#b8").attr("id", "b88");
     // $("#b9").attr("id", "b99");
     $("#b11").animate({ top: 240, left: vw - 250 }, 500);
-    $("#b22").animate({ top: 240, left: vw - 350 }, 500);
+    $("#b22").animate({ top: 240, left: vw - 250 }, 500);
     $("#b33").animate({ top: 240, left: vw - 150 }, 500);
     $("#b44").animate({ top: 240, left: vw - 50 }, 500);
     $("#b55").animate({ top: 240, left: vw + 50 }, 500);
